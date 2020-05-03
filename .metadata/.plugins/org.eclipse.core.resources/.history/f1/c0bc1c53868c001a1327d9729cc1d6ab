@@ -1,0 +1,5 @@
+package com.carlos.security.model.entity;
+
+public class Role {
+
+}

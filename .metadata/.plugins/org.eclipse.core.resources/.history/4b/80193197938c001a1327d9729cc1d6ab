@@ -1,0 +1,12 @@
+package com.carlos.security.model.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="roles")
+public class Role implements Serializable {
+
+}
