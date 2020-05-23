@@ -21,26 +21,26 @@ import com.carlos.security.model.entity.Usuario;
 public class UsuarioService implements UserDetailsService {
 
 	private Logger log = LoggerFactory.getLogger(UsuarioService.class);
-	
+
 	@Autowired
 	private UsuarioDao client;
-	
+
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		Usuario usuario= client.findByUsername(username);
 		if(usuario == null) {
 			throw new UsernameNotFoundException("Error login");
 		}
-		
+
 		List<GrantedAuthority> authorities = usuario.getRoles().stream()
 				.map(role-> new SimpleGrantedAuthority(role.getNombre()))
 				.peek(authority -> log.info("Role: " + authority.getAuthority()))
 				.collect(Collectors.toList());
-		
+
 		log.info("Usuario authenticado: "+ username);
-		
-		
-		return new User(usuario.getUsername(), usuario.getPassword(), usuario.getEnabled(), true, true, true, authorities);
+
+
+		return new User(usuario.getUsername(), usuario.getPassword(), authorities);
 	}
 
 }

@@ -3147,3 +3147,14 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-05-02 12:41:50,037 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-02 12:41:50,039 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-02 12:41:50,040 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\works\spring-tool-suite-4.6.0\workspace\spring-service-security\src\test\resources
+2020-05-08 19:22:44,620 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-08 19:27:05,155 [Worker-9: Launching spring-service-security - SpringServiceSecurityApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 19:27:05,160 [Worker-9: Launching spring-service-security - SpringServiceSecurityApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 19:27:05,202 [Worker-9: Launching spring-service-security - SpringServiceSecurityApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 19:27:05,216 [Worker-9: Launching spring-service-security - SpringServiceSecurityApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 19:27:05,216 [Worker-9: Launching spring-service-security - SpringServiceSecurityApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\works\spring-tool-suite-4.6.0\workspace\spring-service-security\src\test\resources
+2020-05-08 19:50:06,871 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 19:50:06,876 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 19:50:06,887 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 19:50:06,890 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 19:50:06,890 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\works\spring-tool-suite-4.6.0\workspace\spring-service-security\src\test\resources
